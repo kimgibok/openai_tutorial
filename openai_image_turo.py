@@ -19,7 +19,7 @@ client = OpenAI()
 
 response = client.images.generate(
   model=MODEL,
-  prompt="오로라 그려줘",
+  prompt="숲에서 뛰어노는 말티즈를 옛날그림처럼 그려줘",
   size="1024x1024",
   quality="standard",
   n=1,
